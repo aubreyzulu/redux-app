@@ -17,17 +17,17 @@ export const decrement = () => {
     }
 };
 
-export const add = () => {
+export const add = (value) => {
     return {
         type: ADD,
-        val: 10
+        val: value
     }
 }
 
-export const subtract = () => {
+export const subtract = (value) => {
     return {
         type: SUBTRACT,
-        val: 15
+        val: value
     }
 }
 
